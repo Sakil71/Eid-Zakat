@@ -1,0 +1,90 @@
+body{
+    margin: 0;
+}
+.background-img{
+    background-image: url(media/Image/Cow.png);
+    background-position: center;
+    background-size: cover;
+    height: 600px;
+    filter: blur(3px);
+}
+.background-text{
+    text-align: left;
+    top: 50%;
+    left: 40%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    margin-right: 80px;
+    color: whitesmoke;
+}
+h1{
+    font-size: 60px;
+    color: red;
+    font-weight: 700;
+}
+a{
+    text-decoration: none;
+    background-color: tomato;
+    padding: 5px 15px;
+    border-radius: 3px;
+    font-weight: 700;
+    color: yellow;
+}
+.explore{
+    display: flex;
+    padding-top: 20px;
+    margin: 50px;
+}
+.donation{
+    width: 50%;
+    margin: 30px;
+}
+.donation video{
+    width: 100%;
+    border-radius: 8px;
+    margin-top: 55px;
+}
+.suvive{
+    display: flex;
+    padding-top: 20px;
+    margin: 50px;
+}
+.prayer{
+    width: 50%;
+    margin: 30px;
+}
+.prayer img{
+    width: 100%;
+    height: 450px;
+    border-radius: 8px;
+}
+.lives{
+    text-align: center;
+    margin: 80px;
+}
+.depend{
+    display: flex;
+}
+.direct-help{
+   background-color: rgb(229, 226, 221);
+   margin: 10px; 
+   padding: 10px;
+}
+.direct-help img{
+    width: 50px;
+}
+.three-img{
+    display: flex;
+    margin: 50px;
+}
+.love{
+    width: 35%;
+    margin: 10px;
+}
+footer{
+    text-align: center;
+    background-color: black;
+    margin-top:50px;
+    padding: 8px;
+    color: whitesmoke;
+}
