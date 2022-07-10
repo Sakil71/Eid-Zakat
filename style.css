@@ -24,7 +24,7 @@ h1{
 }
 a{
     text-decoration: none;
-    background-color: tomato;
+    background-color:red;
     padding: 5px 15px;
     border-radius: 3px;
     font-weight: 700;
@@ -60,7 +60,7 @@ a{
 }
 .lives{
     text-align: center;
-    margin: 80px;
+    margin: 100px;
 }
 .depend{
     display: flex;
@@ -72,6 +72,17 @@ a{
 }
 .direct-help img{
     width: 50px;
+}
+.direct{
+    display: flex;
+}
+.direct-helpline{
+    background-color: rgb(229, 226, 221);
+   margin: 10px; 
+   padding: 10px;
+}
+.direct-helpline img{
+   width: 50px; 
 }
 .three-img{
     display: flex;
@@ -87,4 +98,24 @@ footer{
     margin-top:50px;
     padding: 8px;
     color: whitesmoke;
+}
+.zakat{
+    text-align: center;
+    margin: 80px;
+}
+.fund{
+    display: flex;
+    margin: 20px;
+}
+.zakat-fund{
+    border-radius: 8px;
+    border: 1px solid gray;
+    margin: 20px;
+    padding:0 20px 20px 20px;
+}
+.zakat-fund img{
+   width: 300px;   
+}
+.anchor{
+    border: 0;
 }
